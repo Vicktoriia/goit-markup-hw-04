@@ -11,7 +11,7 @@
   --item-border: #eeeeee;
   --social-links: #afb1b8;
   --hero-bg: #c4c4c4;
-    /* fonts */
+  /* fonts */
   --main-font: 'Roboto';
   --secondary-font: 'Raleway';
 }
@@ -114,7 +114,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .nav-list-item {
@@ -146,16 +146,6 @@ img {
 .top-menu-contacts-icon {
   fill: currentColor;
   margin-right: 10px;
-}
-
-.icon-envelope {
-  width: 16px;
-  height: 12px;
-}
-
-.icon-smartphone {
-  width: 10px;
-  height: 16px;
 }
 
 .nav-link,
@@ -245,7 +235,7 @@ img {
   display: flex;
   align-items: center;
 
-  background-image: url(../images/BG/Img.jpg), url(../images/BG/Img\ Overlay.jpg),
+  background-image: url(../images/BG/Img.jpg),
     linear-gradient(to left bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 1600px;
@@ -360,15 +350,6 @@ img {
   border-radius: 4px;
 }
 
-.benefits-item-icon {
-  width: 70px;
-  height: 70px;
-
-  color: currentColor;
-  /* margin-right: auto;
-  margin-left: auto; */
-}
-
 /* Activities section */
 
 .activities {
@@ -466,8 +447,6 @@ img {
 }
 
 .social-link-icon {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }
 
@@ -543,12 +522,11 @@ img {
 }
 /* clients */
 
-.clients-list{
+.clients-list {
   display: flex;
-  
 }
 
-.clients-item{
+.clients-item {
   margin-right: 30px;
   width: calc((100% - (6 - 1) * 30px) / 6);
 }
@@ -557,7 +535,7 @@ img {
   margin-right: 0;
 }
 
-.clients-link{
+.clients-link {
   width: 170px;
   height: 92px;
 
@@ -577,7 +555,7 @@ img {
   outline: none;
 }
 
-.clients-logo{
+.clients-logo {
   fill: currentColor;
 }
 /* Footer */
@@ -660,7 +638,7 @@ img {
   align-items: center;
 
   color: var(--light-text);
-  background-color:rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
